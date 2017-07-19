@@ -7,8 +7,8 @@
 -debug:full
 -nostdlib
 -nologo
-"C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
--out:"C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\bin\Debug\netcoreapp1.0\BethanysPieShop.dll"
+"C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\bin\src\BethanysPieShop\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
+-out:"C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\bin\src\BethanysPieShop\bin\Debug\netcoreapp1.0\BethanysPieShop.dll"
 -r:"C:\Users\cmcavinue\.nuget\packages\Microsoft.AspNetCore.Antiforgery\1.0.1\lib\netstandard1.3\Microsoft.AspNetCore.Antiforgery.dll"
 -r:"C:\Users\cmcavinue\.nuget\packages\Microsoft.AspNetCore.Authorization\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Authorization.dll"
 -r:"C:\Users\cmcavinue\.nuget\packages\Microsoft.AspNetCore.Cors\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Cors.dll"
@@ -194,14 +194,10 @@
 -r:"C:\Users\cmcavinue\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll"
 -r:"C:\Users\cmcavinue\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\cmcavinue\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
--resource:"C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\obj\Debug\netcoreapp1.0\BethanysPieShopdotnet-compile.deps.json",BethanysPieShop.deps.json
+-resource:"C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\bin\src\BethanysPieShop\obj\Debug\netcoreapp1.0\BethanysPieShopdotnet-compile.deps.json",BethanysPieShop.deps.json
 "C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Program.cs"
 "C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Startup.cs"
-"C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Components\ShoppingCartSummary.cs"
-"C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Controllers\ContactController.cs"
-"C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Controllers\HomeController.cs"
 "C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Controllers\PieController.cs"
-"C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Controllers\ShoppingCartController.cs"
 "C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Migrations\20170719113954_Initial.cs"
 "C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Migrations\20170719113954_Initial.Designer.cs"
 "C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Migrations\20170719141114_AddShoppingCartItem.cs"
@@ -217,9 +213,5 @@
 "C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Models\MockPieRepository.cs"
 "C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Models\Pie.cs"
 "C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Models\PieRepository.cs"
-"C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Models\ShoppingCart.cs"
 "C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Models\ShoppingCartItem.cs"
-"C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\TagHelpers\EmailTagHelper.cs"
-"C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\ViewModels\HomeViewModel.cs"
 "C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\ViewModels\PiesListViewModel.cs"
-"C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\ViewModels\ShoppingCartViewModel.cs"

@@ -33,7 +33,7 @@ namespace BethanysPieShop.Controllers
 
             if (_shoppingCart.ShoppingCartItems.Count == 0)
             {
-                ModelState.AddModelError("", "Tour cart is empty, add some pies first");
+                ModelState.AddModelError("", "Your cart is empty, add some pies first");
             }
 
             if (ModelState.IsValid)

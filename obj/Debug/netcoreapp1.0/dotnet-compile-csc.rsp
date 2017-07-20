@@ -203,6 +203,7 @@
 "C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Controllers\HomeController.cs"
 "C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Controllers\OrderController.cs"
 "C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Controllers\PieController.cs"
+"C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Controllers\PieDataController.cs"
 "C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Controllers\ShoppingCartController.cs"
 "C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Migrations\20170719113954_Initial.cs"
 "C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Migrations\20170719113954_Initial.Designer.cs"
@@ -232,4 +233,5 @@
 "C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\TagHelpers\EmailTagHelper.cs"
 "C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\ViewModels\HomeViewModel.cs"
 "C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\ViewModels\PiesListViewModel.cs"
+"C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\ViewModels\PieViewModel.cs"
 "C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\ViewModels\ShoppingCartViewModel.cs"

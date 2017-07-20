@@ -8,9 +8,10 @@ using BethanysPieShop.Models;
 namespace BethanysPieShop.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20170720110343_OrderForms")]
+    partial class OrderForms
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.0.1")
@@ -35,39 +36,25 @@ namespace BethanysPieShop.Migrations
                     b.Property<int>("OrderId")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("AddressLine1")
-                        .IsRequired()
-                        .HasAnnotation("MaxLength", 100);
+                    b.Property<string>("AddressLine1");
 
                     b.Property<string>("AddressLine2");
 
-                    b.Property<string>("City")
-                        .IsRequired()
-                        .HasAnnotation("MaxLength", 50);
+                    b.Property<string>("City");
 
-                    b.Property<string>("Country")
-                        .IsRequired()
-                        .HasAnnotation("MaxLength", 50);
+                    b.Property<string>("Country");
 
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasAnnotation("MaxLength", 50);
+                    b.Property<string>("Email");
 
-                    b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasAnnotation("MaxLength", 50);
+                    b.Property<string>("FirstName");
 
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasAnnotation("MaxLength", 50);
+                    b.Property<string>("LastName");
 
                     b.Property<DateTime>("OrderPlaced");
 
                     b.Property<decimal>("OrderTotal");
 
-                    b.Property<string>("PhoneNumber")
-                        .IsRequired()
-                        .HasAnnotation("MaxLength", 25);
+                    b.Property<string>("PhoneNumber");
 
                     b.Property<string>("State");
 
@@ -75,7 +62,7 @@ namespace BethanysPieShop.Migrations
 
                     b.HasKey("OrderId");
 
-                    b.ToTable("Orders");
+                    b.ToTable("Order");
                 });
 
             modelBuilder.Entity("BethanysPieShop.Models.OrderDetail", b =>

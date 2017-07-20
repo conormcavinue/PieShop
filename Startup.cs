@@ -35,6 +35,7 @@ namespace BethanysPieShop
             services.AddTransient<IPieRepository, PieRepository>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddScoped<ShoppingCart>(sp => ShoppingCart.GetCart(sp));
+            services.AddTransient<IOrderRepository, OrderRepository>();
             services.AddMvc();
             services.AddMemoryCache();
             services.AddSession();

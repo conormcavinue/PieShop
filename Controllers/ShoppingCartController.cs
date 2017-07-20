@@ -35,9 +35,15 @@ namespace BethanysPieShop.Controllers
             return View(shoppingCartViewModel);
         }
 
-        /*public RedirectToActionResult AddToShoppingCart(int pieId)
+        public RedirectToActionResult AddToShoppingCart(int pieId)
         {
             var selectedPie = _pieRepository.Pies.FirstOrDefault(p => p.PieId == pieId);
-        }*/
+
+            if (selectedPie != null)
+            {
+                _shoppingCart.AddToCart(selectedPie, 1);
+            }
+            return RedirectToAction("Index");
+        }
     }
 }

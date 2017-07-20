@@ -201,6 +201,7 @@
 --resource:"C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\obj\Debug\netcoreapp1.0\BethanysPieShopdotnet-compile.deps.json",BethanysPieShop.deps.json
 C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Program.cs
 C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Startup.cs
+C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Components\CategoryMenu.cs
 C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Components\ShoppingCartSummary.cs
 C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Controllers\ContactController.cs
 C:\Users\cmcavinue\documents\visual studio 2015\Projects\BethanysPieShop\src\BethanysPieShop\Controllers\HomeController.cs
